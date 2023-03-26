@@ -20,7 +20,7 @@ typedef struct convert
 }con;
 
 /*Main functions*/
-int parser(const char *format, con s_list[], va_list va);
+int pass(const char *format, con s_list[], va_list va);
 int _printf(const char *format, ...);
 int _write_char(char);
 int p_char(va_list);
@@ -34,6 +34,6 @@ int unsigned_integer(va_list);
 int p_octal(va_list list);
 int p_hex(va_list list);
 int p_heX(va_list list);
-int rot13(va_list)
+int roti_13(va_list)
 
 #endif
