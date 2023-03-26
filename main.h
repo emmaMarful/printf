@@ -1,5 +1,5 @@
-#ifndef PRINT_F
-#define PRINT_F
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 #include <unistd.h>
@@ -19,6 +19,7 @@ typedef struct convert
 	int (*f)(va_list);
 } con;
 
+int _putchar(char c);
 int pass(const char *format, con s_list[], va_list va);
 int _printf(const char *format, ...);
 int _w_char(char);
