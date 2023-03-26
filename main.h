@@ -21,7 +21,7 @@ typedef struct convert
 
 int pass(const char *format, con s_list[], va_list va);
 int _printf(const char *format, ...);
-int _write_char(char);
+int _w_char(char);
 int p_char(va_list);
 int p_string(va_list);
 int p_percent(va_list);
