@@ -21,4 +21,4 @@ Authorized functions and macros
 
 
 
-Project By: Emmanuel Marful, KALKIDAN LEMMA
+Project By: Emmanuel Marful, [KALKIDAN LEMMA](https://github.com/Candybez251)
