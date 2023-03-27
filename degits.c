@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * p_d - Print decimal (Base 10) digits (%d)
 * @v_list: Store the value of arguments
 * Return: Counter print numbers
 */
-int print_d(va_list v_list)
+int p_d(va_list v_list)
 {
 	unsigned int num_Absolute, aux_Num, count_Zero, count;
 	int numbers;
