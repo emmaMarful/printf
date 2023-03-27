@@ -13,8 +13,8 @@ int p_c(va_list v_list)
 }
 
 /**
-* print_s - print string
-* @ar_list: svae list of characters
+* p_s - print string
+* @v_list: svae list of characters
 * Return: arguments num
 */
 int p_s(va_list v_list)
