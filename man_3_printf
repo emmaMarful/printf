@@ -1,9 +1,0 @@
-%c - Specifier that takes a following char argument.
-
-%s - Specifier that takes a following string argument.
-
-%d - Specifier that takes a following integer. Any integer passed will be read as a signed decimal integer.
-
-%i - Specifier that takes a following integer. The integer will be read as a decimal, hexadecimal, or octal type.
-
-%% - Specifier that will be read as a percent sign.
