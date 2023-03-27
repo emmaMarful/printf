@@ -7,11 +7,11 @@
 int (*_func(char s))(va_list)
 {
 	convert_t con[] = {
-		{"c", print_c},
-		{"s", print_s},
-		{"d", print_d},
-		{"i", print_i},
-		{"b", print_b},
+		{"c", p_c},
+		{"s", p_s},
+		{"d", p_d},
+		{"i", p_i},
+		{"b", p_b},
 		{NULL, NULL}
 	};
 
